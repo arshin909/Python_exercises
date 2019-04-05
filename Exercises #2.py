@@ -1,0 +1,5 @@
+genome = str(input())
+g = int(genome.lower().count('g'))
+c = int(genome.lower().count('c'))
+procent = float(((c + g) / len(genome)) * 100)
+print(procent)
